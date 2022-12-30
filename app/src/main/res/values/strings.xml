@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">FSense</string>
+    <string name="fsense">FSense</string>
+    <string name="welcome">W E L C O M E</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log in</string>
+    <string name="new_user">New User?</string>
+    <string name="click_here">Click here</string>
+    <string name="signupText">S I G N U P</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="existing_user">Existing User?</string>
+    <string name="copyright">© Developed by Jemish</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_password">Create Password</string>
+
+    <!--    firebase   -->
+                            <!-- nodes -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_info">user_info</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+                            <!-- fields -->
+    <string name="field_username">username</string>
+    <string name="field_user_id">userId</string>
+    <string name="field_user_id_userInfo">user_id</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_followers">followers</string>
+    <string name="field_following">following</string>
+    <string name="field_email">email</string>
+    <string name="field_contact">contact</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="dot">•</string>
+    <string name="field_likes">likes</string>
+    <string name="field_caption">caption</string>
+    <string name="field_redirect">redirect</string>
+    <string name="field_date_created">date_created</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_tags">tags</string>
+    <string name="field_image_path">image_path</string>
+    <string name="field_photo_user_id">user_id</string>
+    <string name="field_likedByCurrentUser">likedByCurrentUser</string>
+
+    <!--    alert dialog-->
+    <string name="log_out">Log out of Fsense?</string>
+    <string name="log_out_popup">Are you sure you want to Log Out?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="confirm_password_dialog">ConfirmPasswordDialog</string>
+
+    <!--   Fragments and activities   -->
+    <string name="profile_fragment">ProfileFragment</string>
+    <string name="edit_profile_fragment">EditProfileFragment</string>
+
+    <!-- photo type -->
+    <string name="profile_photo">profile_photo</string>
+    <string name="new_photo">new_photo</string>
+
+    <!--   other  -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="done">Done</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="website">Website</string>
+    <string name="description">Description</string>
+    <string name="private_information">Private Information</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="next">Next</string>
+    <string name="update">Update</string>
+    <string name="new_post">New Post</string>
+    <string name="enter_caption">Enter Caption</string>
+    <string name="post">Post</string>
+    <string name="search">search</string>
+    <string name="follow">follow</string>
+    <string name="unfollow">unfollow</string>
+    <string name="looking_for_someone">Looking For Someone?</string>
+    <string name="woah_its_empty">Woah, it\'s empty!!</string>
+    <string name="follow_someone">You might need to follow someone</string>
+    <string name="where_get_it_from">Where do you get it from?</string>
+    <string name="text_got_it_from">bought the outfit from</string>
+    <string name="home">Home</string>
+</resources>

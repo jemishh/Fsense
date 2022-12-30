@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cimg_postTop"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".1"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="0dp" />
+
+            <TextView
+                android:id="@+id/tv_usernamePostsTop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".8"
+                android:fontFamily="@font/montserrat"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/img_postOption"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".1"
+                android:background="@color/trans"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dots_vertical" />
+        </LinearLayout>
+
+        <!--  <com.google.android.material.card.MaterialCardView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:cardCornerRadius="0dp"
+              app:cardElevation="2dp">-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/border_bottom_top"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <com.example.fsense.utils.SquareImageView
+                android:id="@+id/postImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:id="@+id/postImageProgressBar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/theme_red" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="2dp"
+                android:layout_weight=".08">
+
+                <ImageView
+                    android:id="@+id/img_heartOutlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_heart_outline"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_heartFilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_heart_filled"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/img_redirect"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight=".08"
+                android:padding="1dp"
+                android:src="@drawable/redirect" />
+            <ImageView
+                android:id="@+id/img_comment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight=".1"
+                android:padding="3dp"
+                android:src="@drawable/ic_comment"
+                android:visibility="gone"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_likedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/montserrat"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_postInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/montserrat"
+            android:padding="5dp"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_viewComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="5dp"
+            android:text="View comments"
+            android:textColor="@color/grey"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_timeStampPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/montserrat"
+            android:padding="5dp"
+            android:text="Time Stamp"
+            android:textColor="#8F696969"
+            android:textSize="12sp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
